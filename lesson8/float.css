@@ -1,31 +1,3 @@
-/* h1 {
-    text-align: center;
-    color: #EA7E41;
-}
-div.galery {
-    width: 871px;
-    margin: 0 auto;
-    padding: 30px 0px;
-    border-radius: 20px;
-    border: 3px solid #EBA57D;
-    background-color: #FFFFFF;
-}
-
-div.image {
-    width: 151px;
-    height: 151px;
-    border-radius: 100%;
-    overflow: hidden;
-    display: inline-block;
-    margin: 0 10px;
-}
-
-img  {
-    height: 300px;
-    width: 300px;
-}
-
-*/
 body {
     background-color: whitesmoke;
 }
@@ -33,27 +5,39 @@ img {
     width: 123px;
     height: 195px;
 }
-div {
+div, a {
     display: inline-block;
 }
-div.Absolute2 {
-    width: 900px;
-    height: 630px;
+nav {
+    display: inline-block;
 }
-div.Absolute1 div {
+header {
+    width: 800px;
+    height: 60px;
     background-color: white;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 36px;
+    margin-bottom: 24px;
+    padding: 14px 12,6px;
+}
+main {
+    width: 797px;
+    height: 630px;
+    margin: auto;
 }
 
-.Absolute2 div {
+.mainer1, .mainer2 {
+    border-radius: 20px;
+}
+.whiteBox  {
     background-color: white;
 }
-div.mainer>h1 {
-    text-align: center;
-}
-div.Absolute2>div.mainer {
-    width: 558px;
-    height: 630px;
-    padding: 33px;
+.mainer1 {
+    width: 492px;
+    height: 576px;
+    padding: 27px 33px;
+    overflow: hidden;
 }
 
 div.secoundaryDiv {
@@ -64,14 +48,94 @@ div.secoundaryDiv {
 div.mainDiv {
     clear: both;
 }
-div.textDiv1 {
+div.TextDiv1 {
+    display: block;
     color: #80CB87;
+    font-size: 24px;
+    height: 45px;
     border-bottom: 2px solid #80CB87;
 }
 div.secoundaryDiv {
+    width: 228px;
+    height: 630px;
     background-color: whitesmoke;
-}
-div.textDiv2 {
+    overflow: hidden;
     text-align: center;
+    border-radius: 20px;
+}
+div.TextDiv2 {
+    padding-top: 25px;
+    font-size: 18px;
+}
+div.TextDiv2>div {
+    margin: 10px 0;
+}
+div.TextDiv3 {
+    display: inline-block;
+    display: inline-block;
+    width: 228px;
+    height: 40px;
     background-color: whitesmoke;
+    font-size: 22px;
+}
+div.images {
+    width: 160px;
+    height: 245px;
+    margin: 0px auto;
+    
+}
+div.mainer2 {
+    text-align: center;
+    padding: 34px 0;
+}
+div.images>img {
+    width: 123.81px;
+    height: 194,71px;
+}
+div.images>a {
+    font-size: 18px;
+    text-decoration: none;
+}
+a.Logo {
+    color: #80CB87;
+    font-size: 26px;
+    width: 170px;
+    height: 32px;
+    text-align: center;
+    margin: 14px 20px 14px 23px;
+    text-decoration: none;
+}
+.Navigation a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 12px;
+    text-align: center;
+}
+a.Main {
+    color: #80CB87;
+    width: 61px;
+    height: 19px;
+    margin: 25px 2px 16px 2px;
+}
+a.CyclesEXO {
+    width: 86px;
+    height: 19px;
+    margin: 25px 2px 16px 2px;
+}
+a.AnotherCycles {
+    width: 106px;
+    height: 19px;
+    margin: 25px 2px 16px 2px;
+}
+a.LogIn {
+    font-size: 14px;
+    text-align: center;
+    width: 96px;
+    padding: 7px 0;
+    height: 14px;
+    float: right;
+    background-color: #80CB87;
+    border-radius: 27px;
+    color: white;
+    margin: 16px 13px 16px 0;
 }
